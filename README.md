@@ -2,14 +2,14 @@
 
 Code accompanying the paper: 
 **"Fast, Sample-Efficient, Affine-Invariant Private Mean and Covariance Estimation for Subgaussian Distributions"**
-by Gavin Brown, Samuel Hopkins, and Adam Smith. COLT 2023.
-[paper on arXiv](https://arxiv.org/abs/2301.12250)
+by Gavin Brown, Sam Hopkins, and Adam Smith. COLT 2023.
+[Link to arXiv.](https://arxiv.org/abs/2301.12250)
 
-**Research Code Warning**: This code is for research purposes only and should not be used in privacy-critical applications.
+**Research Code**: This code is for research purposes only and should not be used in privacy-critical applications.
 
 ## Overview
 
-This repository implements algorithms for differentially private mean estimation and covariance estimation from the BHS23.
+This repository implements algorithms for differentially private mean estimation and covariance estimation from the BHS23 paper.
 The code uses NumPy (tested with version 2.3.2).
 The script `demo.py` generates synthetic data and runs the mean and covariance estimators.
 The main code lives in `algorithms.py`, with additional functions in `utils.py`.
