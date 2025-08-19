@@ -19,7 +19,7 @@ from algorithms import (
     
 # Parameters
 n, d = 100000, 10
-eps, delta = 1.0, 1e-6  # More relaxed delta
+eps, delta = 1.0, 1e-6 
 lambda_0 = 50.0  # outlier threshold
 
 # Generate data from N(0, I_d)
