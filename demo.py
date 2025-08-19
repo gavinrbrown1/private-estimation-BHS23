@@ -16,7 +16,6 @@ from algorithms import (
     private_covariance_estimation, 
     stablecovariance
 )
-from utils import split_and_center
     
 # Parameters
 n, d = 100000, 10
