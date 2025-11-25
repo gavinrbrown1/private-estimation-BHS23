@@ -48,7 +48,7 @@ This itself could be privatized, e.g., by finding the smallest `lambda_0` where 
 Asymptotically, setting `lambda_0` to be roughly `d + O(log n)` suffices for Gaussian data; see the paper for further theoretical discussion.
 
 The algorithms require a certain number of data points in order to ensure privacy. 
-(Both have a line of the form "`if n < (...) then FAIL`.)
+(Both have a line of the form "`if n < (...) then FAIL`".)
 The exact threshold depends on `lambda_0` and the privacy parameters.
 It is a substantial practical drawback: in `demo.py` we run with `d=10` dimensions, `eps=1`, `delta=1e-6`, and `lambda_0=50`; 
 in this setting, the private mean estimation algorithm will automatically fail if it receives an input with fewer than `n=98000` examples.
